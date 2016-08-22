@@ -1,0 +1,1860 @@
+<lessions>
+	<lession>
+		<id>1</id>
+		<name>Lesson #1</name>
+		<sound>basic_lession1.mp3</sound>
+		<sentences_list>
+			<sentence>A: "What are you doing tomorrow?"</sentence>
+			<sentence>B: "Nothing really."</sentence>
+			<sentence>A: "Let's watch a movie or something."</sentence>
+			<sentence>B: "What's on these days?"</sentence>
+			<sentence>A: "I think they're playing Lord of the Rings"</sentence>
+			<sentence>B: "That sounds pretty good. Let's watch that."</sentence>
+            <sentence>A: "Where should we meet?"</sentence>
+			<sentence>B: "How about at the subway entrance."</sentence>
+			<sentence>A: "Aright. I'll meet you there at one o'clock."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What movie do these people plan on watching?</question>
+                <answers>
+                    <answer value="0">Matrix Revolution</answer>
+                    <answer value="0">The Two Towers</answer>
+                    <answer value="1">Lord of the Rings</answer>
+                    <answer value="0">The Last Samurai</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. When do they plan on watching the movie?</question>
+                <answers>
+                    <answer value="0">On the Weekend</answer>
+                    <answer value="1">Tomorrow</answer>
+                    <answer value="0">Later in the evening today</answer>
+                    <answer value="0">Next Friday</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. Where do they plan on meeting?</question>
+                <answers>
+                    <answer value="1">At the subway entrance</answer>
+                    <answer value="0">In front of the movie theater</answer>
+                    <answer value="0">At starbucks next to the theater</answer>
+                    <answer value="0">At home</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What time do they plan on meeting?</question>
+                <answers>
+                    <answer value="0">At 7:30pm after dinner</answer>
+                    <answer value="0">At noontime</answer>
+                    <answer value="1">At one o'clock</answer>
+                    <answer value="0">At 3:45pm</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+    <lession>
+		<id>2</id>
+		<name>Lesson #2</name>
+		<sound>basic_lession2.mp3</sound>
+		<sentences_list>
+			<sentence>A: "What should we do this Saturday?"</sentence>
+			<sentence>B: "Rocky six is suppose to come out this Friday."</sentence>
+			<sentence>A: "Yeah, but I don't know if it is going to be any good."</sentence>
+			<sentence>B: "The only reason I want to see it is because I have seen the previous five."</sentence>
+			<sentence>A: "True. Ok. Let's see it this Saturday."</sentence>
+			<sentence>B: "How about we hook up for lunch at 12:00, and then go see the movie afterwards."</sentence>
+            <sentence>A: "Sounds like a plan. Let's meet in front of Tower Records at 12:00." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What day are they planning on seeing a movie?</question>
+                <answers>
+                    <answer value="0">Friday</answer>
+                    <answer value="1">Saturday</answer>
+                    <answer value="0">Sunday</answer>
+                    <answer value="0">Wednesday</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. When is the new movie supposed to come out?</question>
+                <answers>
+                    <answer value="1">Friday</answer>
+                    <answer value="0">Saturday</answer>
+                    <answer value="0">Sunday</answer>
+                    <answer value="0">Wednesday</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What do they plan on doing before the movie?</question>
+                <answers>
+                    <answer value="0">Nothing</answer>
+                    <answer value="0">Eat Dinner</answer>
+                    <answer value="0">Play pool</answer>
+                    <answer value="1">Eat Lunch</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Where do they plan on meeting?</question>
+                <answers>
+                    <answer value="0">In front of the movie theater</answer>
+                    <answer value="0">In front of McDonalds</answer>
+                    <answer value="1">In front of Tower Records</answer>
+                    <answer value="0">In front of the subway entrance</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+    <lession>
+		<id>3</id>
+		<name>Lesson #3</name>
+		<sound>basic_lession3.mp3</sound>
+		<sentences_list>
+			<sentence>A: "What type of movies do you like?"</sentence>
+			<sentence>B: "I like all sorts of movies, primarily drama and science fiction."</sentence>
+			<sentence>A: "That's an interesting combination. How about western movies?"</sentence>
+			<sentence>B: "Western and horror are the two types of movies I don't care for."</sentence>
+			<sentence>A: "Why don't you like horror? They're entertaining."</sentence>
+			<sentence>B: "Some are entertaining, but I find most of them stupid and childish. For example, I don't understand why a person always goes into the house alone when something is suspicious."</sentence>
+            <sentence>A: "Ha ha. I know what you mean. But it's just a movie. They need for the characters to do that."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What types of movies does this person like?</question>
+                <answers>
+                    <answer value="0">Action and drama</answer>
+                    <answer value="1">Drama and science fiction</answer>
+                    <answer value="0">Suspense and horror</answer>
+                    <answer value="0">Western and horror</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Choose one type of movie this person dislkes?</question>
+                <answers>
+                    <answer value="0">Suspence</answer>
+                    <answer value="0">Comedy</answer>
+                    <answer value="1">Western</answer>
+                    <answer value="0">Action</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. Why does this person not like horror movies?</question>
+                <answers>
+                    <answer value="0">Too scary</answer>
+                    <answer value="0">Too boring</answer>
+                    <answer value="1">Stupid and childish</answer>
+                    <answer value="0">Predictable and obvious</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. How does the person asking the questions think about horror movies?</question>
+                <answers>
+                    <answer value="1">Entertaining</answer>
+                    <answer value="0">Funny</answer>
+                    <answer value="0">Scary</answer>
+                    <answer value="0">Suspenseful</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+    <lession>
+		<id>4</id>
+		<name>Lesson #4</name>
+		<sound>basic_lession4.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Hey, you wanna see a movie tomorrow?"</sentence>
+			<sentence>B: "Sounds like a good plan. What do you want to see?"</sentence>
+			<sentence>A: "How about Legally Blonde."</sentence>
+			<sentence>B: "Ah, my girlfriend wanted to see that movie. I have to take her later so I don't want to watch it ahead of time. How about The Cube?"</sentence>
+			<sentence>A: "Isn't that a scary movie?"</sentence>
+			<sentence>B: "How scary can it be? Come on, it'll be fun."</sentence>
+            <sentence>A: "Ok. I'll give it a try."</sentence>
+            <sentence>B: "That's the spirit. I'll see you tomorrow after class."</sentence>
+            <sentence>A: "Ok. See you tomorrow." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What movies was first suggested?</question>
+                <answers>
+                    <answer value="0">Titanic</answer>
+                    <answer value="0">Rocky V</answer>
+                    <answer value="0">Last man standing</answer>
+                    <answer value="1">Legally Blonde</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why did they not accept the first suggested movie?</question>
+                <answers>
+                    <answer value="0">He already seen it</answer>
+                    <answer value="0">He doesn't like that type of movie</answer>
+                    <answer value="1">He needs to watch it with his girlfriend</answer>
+                    <answer value="0">He doesn't like horror movies</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What type of movie did they end up choosing?</question>
+                <answers>
+                    <answer value="1">A scary movie</answer>
+                    <answer value="0">An action packed movie</answer>
+                    <answer value="0">An exciting movie</answer>
+                    <answer value="0">A dramatic movie</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. When are they going to see the movie?</question>
+                <answers>
+                    <answer value="0">On the weekend after lunch</answer>
+                    <answer value="0">Next week after the final exams</answer>
+                    <answer value="0">On Friday after class</answer>
+                    <answer value="1">Tomorrow after class</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+    <lession>
+		<id>5</id>
+		<name>Lesson #5</name>
+		<sound>basic_lession5.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Hey Jack. How were your classes this semester?"</sentence>
+			<sentence>B: "They were not too bad. I really liked my poli-sci class."</sentence>
+			<sentence>A: "Would you consider it your favorite class?"</sentence>
+			<sentence>B: "I don't know if I would call it my favorite, but it ranks up there."</sentence>
+			<sentence>A: "What class was your favorite then?"</sentence>
+			<sentence>B: "I took a business communication class last year and it was terrific."</sentence>
+            <sentence>A: "I never took that yet. If that was your favorite, I think I will check it out." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the topic of discussion?</question>
+                <answers>
+                    <answer value="1">Classes</answer>
+                    <answer value="0">Movies</answer>
+                    <answer value="0">Work</answer>
+                    <answer value="0">Sports</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What class did he really like?</question>
+                <answers>
+                    <answer value="0">Economy 101</answer>
+                    <answer value="1">Poli-sci</answer>
+                    <answer value="0">English</answer>
+                    <answer value="0">Calculus</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What was his favorite class?</question>
+                <answers>
+                    <answer value="0">Biology</answer>
+                    <answer value="0">Chemistry</answer>
+                    <answer value="1">Business communication</answer>
+                    <answer value="0">Philosophy</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What word did he use to describe his favorite class?</question>
+                <answers>
+                    <answer value="0">Amazing</answer>
+                    <answer value="1">Terrific</answer>
+                    <answer value="0">Educational</answer>
+                    <answer value="0">Interesting</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>6</id>
+		<name>Lesson #6</name>
+		<sound>basic_lession6.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Hey Bob. Whatcha you doing?"</sentence>
+			<sentence>B: "I'm at home painting."</sentence>
+			<sentence>A: "I didn't know you paint. What type of painting is it?"</sentence>
+			<sentence>B: "I enjoy oil painting. I learned it in one of my extra classes in college."</sentence>
+			<sentence>A: "That sounds so interesting. I wish I learned a hobby."</sentence>
+			<sentence>B: "Hobbies are never too late to learn. They offer a variety of classes at the local community college. You should look into it."</sentence>
+            <sentence>A: "I think I will. Thanks for the info."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Where is Bob?</question>
+                <answers>
+                    <answer value="0">At school</answer>
+                    <answer value="0">At work</answer>
+                    <answer value="1">At home</answer>
+                    <answer value="0">In class</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What is Bob doing?</question>
+                <answers>
+                    <answer value="0">Running</answer>
+                    <answer value="0">Watching TV</answer>
+                    <answer value="1">Painting</answer>
+                    <answer value="0">Sleeping</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. Where did Bob learn how to paint?</question>
+                <answers>
+                    <answer value="1">At the local community college</answer>
+                    <answer value="0">From his father</answer>
+                    <answer value="0">In highschool painting class</answer>
+                    <answer value="0">He learned by himself</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What type of painging are they talking about?</question>
+                <answers>
+                    <answer value="0">Abstract painting</answer>
+                    <answer value="0">Regular painting</answer>
+                    <answer value="0">House painting</answer>
+                    <answer value="1">Oil painting</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>7</id>
+		<name>Lesson #7</name>
+		<sound>basic_lession7.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Hey Joanne. What are you up to?"</sentence>
+			<sentence>B: "I'm just watching some television."</sentence>
+			<sentence>A: "I'm so bored. I don't know what I'm going to do today and it is only ten in the morning."</sentence>
+			<sentence>B: "Me too. Do you think we are boring people?"</sentence>
+			<sentence>A: "I don't think we are boring. It's just that we don't have any hobbies."</sentence>
+			<sentence>B: "That's right. What do you think we should do as a hobby?"</sentence>
+            <sentence>A: "That all depends on what you like to do. For example, I like to doodle on the notepad, so I'm thinking about doing some real drawings."</sentence>
+            <sentence>B: "I like to play the piano for fun."</sentence>
+			<sentence>A: "Yeah. That can be a good hobby."</sentence>
+			<sentence>B: "Hobbies are great. I'm going to make a list of all the things I like to do."</sentence>
+			<sentence>A: "That's a great idea. I'm going to do the same."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Which of the following statement is true?</question>
+                <answers>
+                    <answer value="0">Joanne called a friend</answer>
+                    <answer value="1">A friend called Joanne</answer>
+                    <answer value="0">Joanne is playing the piano</answer>
+                    <answer value="0">Joanne is drawing right now</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What is Joanne doing?</question>
+                <answers>
+                    <answer value="0">Running</answer>
+                    <answer value="1">Watching TV</answer>
+                    <answer value="0">Painting</answer>
+                    <answer value="0">Sleeping</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is the topic of discussion?</question>
+                <answers>
+                    <answer value="0">Movies</answer>
+                    <answer value="0">Surfing</answer>
+                    <answer value="0">Computer</answer>
+                    <answer value="1">Hobbies</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What time of day is the conversation taking place?</question>
+                <answers>
+                    <answer value="0">8 am</answer>
+                    <answer value="1">10 am</answer>
+                    <answer value="0">8 pm</answer>
+                    <answer value="0">10 pm</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>8</id>
+		<name>Lesson #8</name>
+		<sound>basic_lession8.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Hey Michael. Where are you going?"</sentence>
+			<sentence>B: "No where special. I was just taking a walk."</sentence>
+			<sentence>A: "What for?"</sentence>
+			<sentence>B: "To get a little exercise. I'm so out of shape."</sentence>
+			<sentence>A: "Hey, I play basketball with a bunch of friends twice a week. It's great exercise and it's fun too. Why don't you come out and play with us?"</sentence>
+			<sentence>B: "That sounds great. Give me a call next time you guys play."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Where is the conversation taking place?</question>
+                <answers>
+                    <answer value="0">In the office</answer>
+                    <answer value="0">In a classroom</answer>
+                    <answer value="0">At home over the telephone</answer>
+                    <answer value="1">Outside</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What is Michael currently doing?</question>
+                <answers>
+                    <answer value="0">Studying for exams</answer>
+                    <answer value="0">Listening to music</answer>
+                    <answer value="1">Taking a walk</answer>
+                    <answer value="0">Watching TV</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. Where is Michael going?</question>
+                <answers>
+                    <answer value="1">No where special</answer>
+                    <answer value="0">To a special party</answer>
+                    <answer value="0">On his way home</answer>
+                    <answer value="0">To his favorit restaurant</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What sporting activity was suggested for exercise?</question>
+                <answers>
+                    <answer value="0">Baseball</answer>
+                    <answer value="1">Basketball</answer>
+                    <answer value="0">Football</answer>
+                    <answer value="0">Soccer</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>9</id>
+		<name>Lesson #9</name>
+		<sound>basic_lession9.mp3</sound>
+		<sentences_list>
+			<sentence>A: "All I do all day is work and watch TV. I really should start thinking about my health."</sentence>
+			<sentence>B: "I never thought about that, but you're right. What do you think we should do?"</sentence>
+			<sentence>A: "For starters, we should start doing more outdoor activities. That way we'll get some exercise."</sentence>
+			<sentence>B: "I was thinking about taking tennis lessons. I always have an hour to spare in the afternoon. What do you think about that?"</sentence>
+			<sentence>A: "That's not a bad idea. How much is it?"</sentence>
+			<sentence>B: "I heard it is only about one hundred twenty dollars a month for 8 lessons."</sentence>
+            <sentence>A: "Playing tennis twice a week will be a good start. Count me in." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Person A works and watches TV all day. What is he starting to think about?</question>
+                <answers>
+                    <answer value="1">His health</answer>
+                    <answer value="0">Playing basketball</answer>
+                    <answer value="0">The next great movie</answer>
+                    <answer value="0">Work he didn't finish yet</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What suggestion is made to get more exercise?</question>
+                <answers>
+                    <answer value="0">Running or Jogging</answer>
+                    <answer value="1">Doing more outdoor activities</answer>
+                    <answer value="0">Going to the local gym</answer>
+                    <answer value="0">Geting a health club membership</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What type of lessons are they considering?</question>
+                <answers>
+                    <answer value="0">Music lessons</answer>
+                    <answer value="0">Piano lessons</answer>
+                    <answer value="1">Tennis lessons</answer>
+                    <answer value="0">English lessons</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. For $120, how often will they meet?</question>
+                <answers>
+                    <answer value="0">Everyday for a month</answer>
+                    <answer value="0">Once a week for two months</answer>
+                    <answer value="1">Twice a week for one month</answer>
+                    <answer value="0">8 Weeks</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>10</id>
+		<name>Lesson #10</name>
+		<sound>basic_lession10.mp3</sound>
+		<sentences_list>
+			<sentence>A: "What do you do besides work and watching TV?"</sentence>
+			<sentence>B: "When I have some time, I like to exercise."</sentence>
+			<sentence>A: "Do you go jogging or do you go to a health club?"</sentence>
+			<sentence>B: "I joined Samsung Health Club a couple of months ago."</sentence>
+			<sentence>A: "How do you exercise?"</sentence>
+			<sentence>B: "I usually spend 30 minutes on the bicycle for the cardio, and then I lift weight for about 45 minutes."</sentence>
+			<sentence>A: "How often do you go?"</sentence>
+			<sentence>B: "I want to go four times a week, but I'm too lazy. Last week, I only went to workout once."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the main topic of discussion?</question>
+                <answers>
+                    <answer value="0">Work</answer>
+                    <answer value="0">Television</answer>
+                    <answer value="1">Exercise</answer>
+                    <answer value="0">Restaurants</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. How long ago did he join the health club?</question>
+                <answers>
+                    <answer value="0">1 year ago</answer>
+                    <answer value="0">1 month ago</answer>
+                    <answer value="1">2 months ago</answer>
+                    <answer value="0">Last week</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. How long does he lift weights for?</question>
+                <answers>
+                    <answer value="0">30 minutes</answer>
+                    <answer value="1">45 minutes</answer>
+                    <answer value="0">1 hour</answer>
+                    <answer value="0">2 hours</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What does he usually do before lifting weights?</question>
+                <answers>
+                    <answer value="0">Stretch</answer>
+                    <answer value="0">Walk around</answer>
+                    <answer value="0">Jump rope fo 15 minutes</answer>
+                    <answer value="1">Bicycle for 30 minutes</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>11</id>
+		<name>Lesson #11</name>
+		<sound>basic_lession11.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Hey Jimmy. Let's go workout later today."</sentence>
+			<sentence>B: "Sure. What time do you want to go?"</sentence>
+			<sentence>A: "How about at 3:30."</sentence>
+			<sentence>B: "That sounds good. Today we work on Legs and forearm."</sentence>
+			<sentence>A: "Hey. I just played basketball earlier, so my legs are a little sore. Let's work out on arms and stomach today."</sentence>
+			<sentence>B: "I'm on a weekly schedule. You're messing everything up."</sentence>
+			<sentence>A: "C'mon. We're only switching two days. You can do legs on Friday."</sentence>
+			<sentence>B: "Aright. I'll meet you at the gym at 3:30 then."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What does Jimmy's friend want to do later?</question>
+                <answers>
+                    <answer value="1">Workout</answer>
+                    <answer value="0">Eat lunch</answer>
+                    <answer value="0">Sleep</answer>
+                    <answer value="0">Play basketball</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What time do that plan on meeting?</question>
+                <answers>
+                    <answer value="0">After dinner</answer>
+                    <answer value="1">At 3:30</answer>
+                    <answer value="0">Ten in the morning</answer>
+                    <answer value="0">After lunch at 1:00</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What did he do earlier that caused soreness in his legs?</question>
+                <answers>
+                    <answer value="0">Lifted weights</answer>
+                    <answer value="0">Skiing with friends</answer>
+                    <answer value="0">Played soccer all day</answer>
+                    <answer value="1">Played basketball</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Where are they going to meet?</question>
+                <answers>
+                    <answer value="0">At Jimmy's house</answer>
+                    <answer value="0">At the coffee shop down the street</answer>
+                    <answer value="0">By the bus stop</answer>
+                    <answer value="1">At the gym</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>12</id>
+		<name>Lesson #12</name>
+		<sound>basic_lession12.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Damn Scott. You got big."</sentence>
+			<sentence>B: "Yeah, I've been working out a lot."</sentence>
+			<sentence>A: "How long have you been lifting weights?"</sentence>
+			<sentence>B: "For a year and a half."</sentence>
+			<sentence>A: "Yeah. Last time I saw you, it was like 2 years ago."</sentence>
+			<sentence>B: "Has it been that long?"</sentence>
+			<sentence>A: "How often do you go to the gym?"</sentence>
+			<sentence>B: "I usually go every other day for about 3 hours."</sentence>
+			<sentence>A: "That's a lot."</sentence>
+			<sentence>B: "Yeah, I used to work out for an hour a day 4 times a week, and I saw no results. This is what you have to do to get noticeable results."</sentence>
+			<sentence>A: "I don't think I have the discipline for that."</sentence>
+			<sentence>B: "Just think of it as a hobby. Then it's actually fun."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. How would you describe Scott?</question>
+                <answers>
+                    <answer value="0">Very tall and skinny</answer>
+                    <answer value="0">Slender with broad shoulders</answer>
+                    <answer value="1">Big and muscular</answer>
+                    <answer value="0">Short and fat</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. How long has it been since these two last saw each other?</question>
+                <answers>
+                    <answer value="0">6 months ago</answer>
+                    <answer value="0">10 months ago</answer>
+                    <answer value="0">A year and a half ago</answer>
+                    <answer value="1">Two years ago</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. How often does Scott go to the gym?</question>
+                <answers>
+                    <answer value="0">Never</answer>
+                    <answer value="0">Once a month</answer>
+                    <answer value="0">Every day for an hour</answer>
+                    <answer value="1">Every other day for 3 hours</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Why does Scott work out so much?</question>
+                <answers>
+                    <answer value="1">To get noticeable results</answer>
+                    <answer value="0">Because he will be bored</answer>
+                    <answer value="0">Because he will be bored</answer>
+                    <answer value="0">To train for a marathon</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>13</id>
+		<name>Lesson #13</name>
+		<sound>basic_lession13.mp3</sound>
+		<sentences_list>
+			<sentence>A: "The weather is terrible."</sentence>
+			<sentence>B: "Yeah. It's been raining a lot these days."</sentence>
+			<sentence>A: "I have been watching a lot of videos at home because of the constant rain."</sentence>
+			<sentence>B: "Have you heard when it's supposed to get better?"</sentence>
+			<sentence>A: "I saw the weather report, and it's going to rain for the next eight days."</sentence>
+			<sentence>B: "That sucks so much. What are we going to do?"</sentence>
+			<sentence>A: "I'm getting pretty bored. We should do something despite the rain."</sentence>
+			<sentence>B: "I'm with you. What do you have in mind?"</sentence>
+			<sentence>A: "I haven't been to the Mall in a long time. Let's go there."</sentence>
+			<sentence>B: "That sounds good. They have a movie theatre there, so if we get bored, we can watch a movie."</sentence>
+			<sentence>A: "Great. I'll stop by your place now."</sentence>
+			<sentence>B: "Ok. Don't forget to bring your umbrella. The rain can start up again anytime."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What topic are they talking about?</question>
+                <answers>
+                    <answer value="1">Weather and rain</answer>
+                    <answer value="0">Shopping at the mall</answer>
+                    <answer value="0">Comedy movies at the theater</answer>
+                    <answer value="0">Sports and activities</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. If they get bored at the mall, what will they do?</question>
+                <answers>
+                    <answer value="1">Watch a movie</answer>
+                    <answer value="0">Buy a game to play</answer>
+                    <answer value="0">Go home and watch TV</answer>
+                    <answer value="0">Go to the gym</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What word is used to describe the weather?</question>
+                <answers>
+                    <answer value="0">Amazing</answer>
+                    <answer value="0">Depressing</answer>
+                    <answer value="0">Great</answer>
+                    <answer value="1">Terrible</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What was mentioned in the weather report?</question>
+                <answers>
+                    <answer value="0">It will stop raining in three days</answer>
+                    <answer value="1">It will stop raining in eight days</answer>
+                    <answer value="0">It will stop raining on Friday</answer>
+                    <answer value="0">I will be sunny over the weekend</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>14</id>
+		<name>Lesson #14</name>
+		<sound>basic_lession14.mp3</sound>
+		<sentences_list>
+			<sentence>A: "Did you ever take History 231?"</sentence>
+<sentence>B: "Yeah. Last semester."</sentence>
+<sentence>A: "Who was the professor?"</sentence>
+<sentence>B: "It was Professor Johnson."</sentence>
+<sentence>A: "I have him this semester. What do you think about him?"</sentence>
+<sentence>B: "He's a terrible instructor and demands a lot, but fortunately, he's an easy grader."</sentence>
+<sentence>A: "What did you end up getting?"</sentence>
+<sentence>B: "I got an A-. Sounds good, but none of my test scores were that high, so I don't know how I got a decent grade."</sentence>
+<sentence>A: "That's probably because he grades on a curve."</sentence>
+<sentence>B: "Are you enjoying the class so far?"</sentence>
+<sentence>A: "I hate it and I was about to withdrawal. But after hearing your experience, I think I will tough it out."</sentence>
+<sentence>B: "Yes. Definitely stay in the class. You will get a better grade than your test scores. He does that deliberately to make all the students study a lot."</sentence>
+<sentence>A: "Thanks for letting me know. I feel relieved now." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What university class are they talking about?</question>
+                <answers>
+                    <answer value="0">Biology</answer>
+                    <answer value="0">Chemistry</answer>
+                    <answer value="1">History</answer>
+                    <answer value="0">Geography</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. How did the student describe the professor?</question>
+                <answers>
+                    <answer value="0">Smart and fun</answer>
+                    <answer value="0">Easy and boring</answer>
+                    <answer value="1">Demanding but an easy grader</answer>
+                    <answer value="0">Easy but a hard grader </answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. How did one student get an A- grade but all his scores were lower than that?</question>
+                <answers>
+                    <answer value="0">The professor liked the student</answer>
+                    <answer value="1">The professor graded on a curve</answer>
+                    <answer value="0">The student did extra assignments</answer>
+                    <answer value="0">The student talked to the professor</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. How did one student feel after hearing about the professor from the other student?</question>
+                <answers>
+                    <answer value="0">The student felt worried</answer>
+                    <answer value="1">The student felt relieved </answer>
+                    <answer value="0">The student felt like crying</answer>
+                    <answer value="0">The student felt angry</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>15</id>
+		<name>Lesson #15</name>
+		<sound>basic_lession15.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hi Mike. What have you been up to?"</sentence>
+<sentence>B: "Not much. I started exercising."</sentence>
+<sentence>A: "Trying to get in shape?"</sentence>
+<sentence>B: "Yeah, and I need to start improving my health."</sentence>
+<sentence>A: "Me too. What are you doing besides exercising?"</sentence>
+<sentence>B: "That's about all."</sentence>
+<sentence>A: "I think if you eat better, it will help tremendously."</sentence>
+<sentence>B: "Sleep is good too. I heard people who sleep an average of eight hours a day have less health problems."</sentence>
+<sentence>A: "Looks like there are a lot of things to do to stay healthy."</sentence>
+<sentence>B: "True. But I think it is worth it. When you get old, you want to be healthy and active." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. There are several topics in this short discussion, what is the main topic?</question>
+                <answers>
+                    <answer value="0">Exercising</answer>
+                    <answer value="0">Eating</answer>
+                    <answer value="0">Sleeping</answer>
+                    <answer value="1">Health</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. How many hours is one person recommending to sleep?</question>
+                <answers>
+                    <answer value="0">7 hours</answer>
+                    <answer value="1">8 hours</answer>
+                    <answer value="0">10 hours</answer>
+                    <answer value="0">12 hours</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. Why did mike start exercising?</question>
+                <answers>
+                    <answer value="0">To burn off fat</answer>
+                    <answer value="0">A girl he likes joined the local gym</answer>
+                    <answer value="0">Because he was bored</answer>
+                    <answer value="1">To improve his health</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. When you get old, Mike recommends that you want to be what?</question>
+                <answers>
+                    <answer value="0">Handsome and tall</answer>
+                    <answer value="0">Smart and successful</answer>
+                    <answer value="1">Healthy and active</answer>
+                    <answer value="0">Rich and independent</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>16</id>
+		<name>Lesson #16</name>
+		<sound>basic_lession16.mp3</sound>
+		<sentences_list>
+<sentence>A: "I haven't seen your father in like 5 years. How is he doing?"</sentence>
+<sentence>B: "He's not doing too well."</sentence>
+<sentence>A: "Why? What's wrong?"</sentence>
+<sentence>B: "About a year ago, he started feeling weak all the time."</sentence>
+<sentence>A: "Is it due to old age or is he sick."</sentence>
+<sentence>B: "Maybe a little of both. The doctor's can't point out anything specifically. I think it is because he didn't take care of himself during his youth."</sentence>
+<sentence>A: "That makes sense. It's important to take care of your health early in life."</sentence>
+<sentence>B: "That's what my father tells me almost everyday."</sentence>
+<sentence>A: "Well, I hope he starts feeling better. Say hi to him for me."</sentence>
+<sentence>B: "Thanks. I'll let him know." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Who are these two people talking about?</question>
+                <answers>
+                    <answer value="0">A mutual friend</answer>
+                    <answer value="0">Person A</answer>
+                    <answer value="1">One person's father</answer>
+                    <answer value="0">One person's brother</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is that person always feeling weak?</question>
+                <answers>
+                    <answer value="0">He is sick with a virus</answer>
+                    <answer value="1">He didn't take care of himself when he was young</answer>
+                    <answer value="0">He got food poisoning</answer>
+                    <answer value="0">He never exercised</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. How long has it been since one person met his friend's father?</question>
+                <answers>
+                    <answer value="0">3 months</answer>
+                    <answer value="0">9 months</answer>
+                    <answer value="0">2 years</answer>
+                    <answer value="1">5 years</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What did the doctor say about the father's condition?</question>
+                <answers>
+                    <answer value="0">He has cancer</answer>
+                    <answer value="0">He has a fever but will get better</answer>
+                    <answer value="0">His depression is making him tired</answer>
+                    <answer value="1">Couldn't find anything specific</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>17</id>
+		<name>Lesson #17</name>
+		<sound>basic_lession17.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Sarah. Why are you limping?"</sentence>
+<sentence>B: "Oh. Hi Matt. I went snowboarding yesterday and my whole body aches."</sentence>
+<sentence>A: "Was it your first time?"</sentence>
+<sentence>B: "Yeah. And I never want to go again."</sentence>
+<sentence>A: "I remember the first time I went. My back was sore, I couldn't sit down because it hurt my butt, and my legs would cramp if I walked too fast."</sentence>
+<sentence>B: "That's exactly how I feel now."</sentence>
+<sentence>A: "It's only like that the first couple of times."</sentence>
+<sentence>B: "Ha. There won't be a next time."</sentence>
+<sentence>A: "You gotta give it a chance. It's fun after awhile."</sentence>
+<sentence>B: "I'll think about it after I start feeling better. Right now, I don't even want to hear the word snowboarding." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What does limping mean?</question>
+                <answers>
+                    <answer value="0">To crawl</answer>
+                    <answer value="0">To cringe due to pain</answer>
+                    <answer value="1">Walk that is unbalanced from injury or pain</answer>
+                    <answer value="0">Walk that is faster than normal</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why was Sarah limping?</question>
+                <answers>
+                    <answer value="0">She was running late for class and was in a hurry</answer>
+                    <answer value="1">She went snowboarding and had body aches</answer>
+                    <answer value="0">She was looking for her contacts that fell to the ground</answer>
+                    <answer value="0">She was practicing a martial arts move</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What would happen in the past when Matt walked too fast?</question>
+                <answers>
+                    <answer value="0">He would trip and fall</answer>
+                    <answer value="1">His leg would cramp</answer>
+                    <answer value="0">He would start running</answer>
+                    <answer value="0">He looked goofy walking fast</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What is Sarah's impression on snowboarding?</question>
+                <answers>
+                    <answer value="0">Loves it and wants to go again</answer>
+                    <answer value="0">Loves it but it is too expensive</answer>
+                    <answer value="0">Not sure yet so she will try again</answer>
+                    <answer value="1">Hates it and doesn't want to think about it</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>18</id>
+		<name>Lesson #18</name>
+		<sound>basic_lession18.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Jane. How are you doing these days?"</sentence>
+<sentence>B: "Hi Martha. Everything is perfect."</sentence>
+<sentence>A: "Are you enjoying married life?"</sentence>
+<sentence>B: "It couldn't be better. My husband is so supportive with my work and he helps around the house so much."</sentence>
+<sentence>A: "You're so lucky. I hope to get married to a guy like that."</sentence>
+<sentence>B: "I'm so happy. Even though we are both working, we get to spend a lot of time with each other in the evening and on the weekends."</sentence>
+<sentence>A: "Do you guys do anything special?"</sentence>
+<sentence>B: "In the evening, we just sit and talk over dinner. But on the weekend, we try to go out to the beach or hit a nice restaurant, or go to a nice cafe."</sentence>
+<sentence>A: "Sound like everything is great." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the general mood of the ladies?</question>
+                <answers>
+                    <answer value="1">Happy</answer>
+                    <answer value="0">Sad</answer>
+                    <answer value="0">Lonely</answer>
+                    <answer value="0">Angry</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is Jane enjoying married life?</question>
+                <answers>
+                    <answer value="0">Husband makes a lot of money</answer>
+                    <answer value="0">Husband is loving and caring</answer>
+                    <answer value="1">Husband is supportive and helpful</answer>
+                    <answer value="0">Husband is smart and handsome</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What do Jane and her husband to in the evenings?</question>
+                <answers>
+                    <answer value="0">Go bowling for fun</answer>
+                    <answer value="0">Take walks around the neighborhood</answer>
+                    <answer value="1">Have a nice dinner together</answer>
+                    <answer value="0">Watch TV together</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What is one thing that Jane and her husband do NOT do together on the weekend?</question>
+                <answers>
+                    <answer value="0">Go out to the beach</answer>
+                    <answer value="0">Go to a nice restaurant</answer>
+                    <answer value="1">Go to watch a movie</answer>
+                    <answer value="0">Go to a nice cafe</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>19</id>
+		<name>Lesson #19</name>
+		<sound>basic_lession19.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Stacy. What's going on?"</sentence>
+<sentence>B: "I'm pretty tired these days."</sentence>
+<sentence>A: "Why? You're not working so don't you have a lot of time on your hands?"</sentence>
+<sentence>B: "I have so much house work to do. I have to take care of the kids, cook, clean, laundry, and the cycle never ends."</sentence>
+<sentence>A: "How about your husband. Does he help much?"</sentence>
+<sentence>B: "Not at all. He comes home and complains about his hard day at work. He expects me to do everything. He even wants me to feed him sometimes. Can you believe that?"</sentence>
+<sentence>A: "That sucks."</sentence>
+<sentence>B: "If he wasn't so lazy, I think I wouldn't have any complaints. He mows the lawn, but can you believe he tried to convince me to do it?"</sentence>
+<sentence>A: "That's crossing the line."</sentence>
+<sentence>B: "Oh well. I'll have to live with it. What else can I do?" </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Why is Stacy so tired these days?</question>
+                <answers>
+                    <answer value="1">Has to watch the kids, cook, clean, and laundry</answer>
+                    <answer value="0">Has to work all day long</answer>
+                    <answer value="0">Currently recovering from surgery and took pain medication</answer>
+                    <answer value="0">She has the flu</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is Stacy doing all the work herself?</question>
+                <answers>
+                    <answer value="0">She is a single mom working 2 jobs</answer>
+                    <answer value="0">Her husband is on business trips and is home to help</answer>
+                    <answer value="0">Her husband helps a lot, but there is too much to do</answer>
+                    <answer value="1">Her husband only complains about his day and doesn't help</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is one chore that the husband takes care of?</question>
+                <answers>
+                    <answer value="0">Vacuuming</answer>
+                    <answer value="1">Mowing the lawn</answer>
+                    <answer value="0">Washing the car</answer>
+                    <answer value="0">Dishes</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What is one change Stacy wants to see from her husband?</question>
+                <answers>
+                    <answer value="0">To be more loving</answer>
+                    <answer value="0">To be less lazy</answer>
+                    <answer value="0">To be home more often</answer>
+                    <answer value="1">To change jobs that require less traveling</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>20</id>
+		<name>Lesson #20</name>
+		<sound>basic_lession20.mp3</sound>
+		<sentences_list>
+<sentence>A: "Welcome. Can I help you with anything?"</sentence>
+<sentence>B: "Hi. I'm shopping for my boyfriend's birthday. Do you have any suggestions?"</sentence>
+<sentence>A: "Let's see. How about a nice shirt and tie? You can't go wrong there."</sentence>
+<sentence>B: "Well. He doesn't wear ties that often."</sentence>
+<sentence>A: "We have some nice pants. You can also get him a belt with it."</sentence>
+<sentence>B: "That sounds good. Which one do you recommend?"</sentence>
+<sentence>A: "These slacks are very popular. He can wear them to dress up a little or on a normal casual day."</sentence>
+<sentence>B: "I like them. Do you have matching belts?"</sentence>
+<sentence>A: "Yes. Right over here."</sentence>
+<sentence>B: "How much are they?"</sentence>
+<sentence>A: "The pants are on sale for $40, and the belt is $25."</sentence>
+<sentence>B: "What is your return policy just in case he doesn't like them?"</sentence>
+<sentence>A: "Just save the receipt and we will gladly return or exchange them for you."</sentence>
+<sentence>B: "That sounds great. I'll take them." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Where is this conversation taking place?</question>
+                <answers>
+                    <answer value="0">At an electronice store</answer>
+                    <answer value="1">At a clothing store</answer>
+                    <answer value="0">At a coffee shop</answer>
+                    <answer value="0">Over the phone</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What is the person shopping for?</question>
+                <answers>
+                    <answer value="0">A tall vanilla latte</answer>
+                    <answer value="0">A DVD player</answer>
+                    <answer value="0">Her mother's birthday present</answer>
+                    <answer value="1">For her boyfriend</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What did she end up buying for her boyfriend?</question>
+                <answers>
+                    <answer value="1">Pants and a belt</answer>
+                    <answer value="0">Shirt and tie</answer>
+                    <answer value="0">Leather jacket</answer>
+                    <answer value="0">iPod</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What is the return policy of this store?</question>
+                <answers>
+                    <answer value="0">Only exchanges</answer>
+                    <answer value="1">Return or exchanges allowed with receipt</answer>
+                    <answer value="0">All sales are final with no returns or exchanges</answer>
+                    <answer value="0">3 days for returns or exchanges with receipt</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>21</id>
+		<name>Lesson #21</name>
+		<sound>basic_lession21.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey John. I have some great news."</sentence>
+<sentence>B: "What happened?"</sentence>
+<sentence>A: "I got a job offer from Dell."</sentence>
+<sentence>B: "That's great. I thought you said you didn't get the job."</sentence>
+<sentence>A: "I thought I did bad on the interview, but I guess I was wrong. I'm so happy right now."</sentence>
+<sentence>B: "I bet. That's great news. I'm very happy for you."</sentence>
+<sentence>A: "Thanks. I feel like celebrating. Let's go have a beer. It's on me."</sentence>
+<sentence>B: "Sounds good." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the great news in the dialog?</question>
+                <answers>
+                    <answer value="1">He received a job offer</answer>
+                    <answer value="0">He got a promotion at work</answer>
+                    <answer value="0">He gave an interview</answer>
+                    <answer value="0">He wants to celebrate</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. How did he feel about the interview?</question>
+                <answers>
+                    <answer value="1">He thought he did bad</answer>
+                    <answer value="0">He thought he did good</answer>
+                    <answer value="0">He though he did perfect</answer>
+                    <answer value="0">He didn't have an interview</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What are they going to do to celebrate?</question>
+                <answers>
+                    <answer value="0">Go to a party</answer>
+                    <answer value="0">Go watch a movie</answer>
+                    <answer value="1">Go drink beer</answer>
+                    <answer value="0">Go play pool</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Who is paying for the celebration?</question>
+                <answers>
+                    <answer value="0">Doesn't mention anything about who is paying</answer>
+                    <answer value="0">Both of them will pay equally</answer>
+                    <answer value="1">The friend with the good news</answer>
+                    <answer value="0">The friend who heard the good news</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>22</id>
+		<name>Lesson #22</name>
+		<sound>basic_lession22.mp3</sound>
+		<sentences_list>
+<sentence>A: "Mike, did you win the lottery or something? Why the big smile?"</sentence>
+<sentence>B: "I'm so relieved. I just passed the bar exam."</sentence>
+<sentence>A: "You did? That's great! You must be very happy now?"</sentence>
+<sentence>B: "That's an understatement. I'm on cloud nine. I couldn't be any happier."</sentence>
+<sentence>A: "Did you tell your parents yet?"</sentence>
+<sentence>B: "Not yet. I didn't get a hold of them. I'll try to call them again tonight."</sentence>
+<sentence>A: "They're probably going to be so happy."</sentence>
+<sentence>B: "I think so. It's turning out to be a great day." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Why is Mike so happy?</question>
+                <answers>
+                    <answer value="0">He won the lottery</answer>
+                    <answer value="0">His wife won the lottery</answer>
+                    <answer value="1">He passed the bar exam</answer>
+                    <answer value="0">He passed the civil service exam</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Who will Mike call with this good news later?</question>
+                <answers>
+                    <answer value="0">His brother</answer>
+                    <answer value="0">His wife</answer>
+                    <answer value="1">His parents</answer>
+                    <answer value="0">His friend</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What does "cloud nine" mean?</question>
+                <answers>
+                    <answer value="1">A state of extreme happiness</answer>
+                    <answer value="0">To be in an airplane</answer>
+                    <answer value="0">To be in a high elevation</answer>
+                    <answer value="0">To be very disappointed</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. How is the friend feeling after hearing this news from Mike?</question>
+                <answers>
+                    <answer value="0">Sad and depressed</answer>
+                    <answer value="0">Bitter and Jealous</answer>
+                    <answer value="1">Happy for his friend</answer>
+                    <answer value="0">Angry and surprised</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>23</id>
+		<name>Lesson #23</name>
+		<sound>basic_lession23.mp3</sound>
+		<sentences_list>
+<sentence>A: "Life's so boring."</sentence>
+<sentence>B: "Well, most of the time it is, I guess."</sentence>
+<sentence>A: "What do you think will make you happy?"</sentence>
+<sentence>B: "I think money will make me happy."</sentence>
+<sentence>A: "You heard people say that money doesn't guarantee happiness."</sentence>
+<sentence>B: "It will for me. Then I can do all the things I want to do."</sentence>
+<sentence>A: "You'll get bored eventually."</sentence>
+<sentence>B: "Then I can find something new to do. If I don't have to worry about money, then I don't have to work."</sentence>
+<sentence>A: "That's true, I guess. If I didn't have to work, I think I would be happy."</sentence>
+<sentence>B: "You see... money doesn't equal happiness, but it takes away a lot of responsibilities." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the theme of this discussion?</question>
+                <answers>
+                    <answer value="0">Happiness versus sadness</answer>
+                    <answer value="1">Money and happiness</answer>
+                    <answer value="0">Work and money</answer>
+                    <answer value="0">Boring life</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. In this dialog, what can money do for someone?</question>
+                <answers>
+                    <answer value="0">Buy fance cars</answer>
+                    <answer value="1">Take away a lot of responsibilities</answer>
+                    <answer value="0">Go traveling around the world</answer>
+                    <answer value="0">Open a nice restaurant</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is one draw back mentioned from having too much money?</question>
+                <answers>
+                    <answer value="0">Person will become greedy</answer>
+                    <answer value="1">Person will become bored eventually</answer>
+                    <answer value="0">Person will be unhappy</answer>
+                    <answer value="0">Person will lose friends</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What conclusion can we come to from this dialog?</question>
+                <answers>
+                    <answer value="1">Neither of them are rich</answer>
+                    <answer value="0">Both of them are rich</answer>
+                    <answer value="0">One person does not have a job</answer>
+                    <answer value="0">Both of them do not have a job</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>24</id>
+		<name>Lesson #24</name>
+		<sound>basic_lession24.mp3</sound>
+		<sentences_list>
+<sentence>A: "What happened to your car?"</sentence>
+<sentence>B: "A tow truck was towing my car and put all those dents in my car."</sentence>
+<sentence>A: "Are they going to pay you for the damages?"</sentence>
+<sentence>B: "They're saying it was already there."</sentence>
+<sentence>A: "What the hell. That doesn't make sense. What are you going to do."</sentence>
+<sentence>B: "I have to go to court. A cop was there so he can prove that the damage wasn't there."</sentence>
+<sentence>A: "That sucks. I'd be pissed if that happened to me."</sentence>
+<sentence>B: "I got an estimate and it's four thousand dollars."</sentence>
+<sentence>A: "Oh my gosh. Damn... screw the court, I would burn down their store."</sentence>
+<sentence>B: "We'll see what happens after court."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Why is the person so angry?</question>
+                <answers>
+                    <answer value="0">He lost his car</answer>
+                    <answer value="0">He got into a car accident</answer>
+                    <answer value="1">His car got damaged by a tow company</answer>
+                    <answer value="0">No one is angry in this dialog</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. How is he going to solve the problem with his car?</question>
+                <answers>
+                    <answer value="0">Go to a auto body shop</answer>
+                    <answer value="0">Go to the company</answer>
+                    <answer value="1">Go to court</answer>
+                    <answer value="0">Nothing</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. How much will it cost to repair the car?</question>
+                <answers>
+                    <answer value="0">$800</answer>
+                    <answer value="0">$1500</answer>
+                    <answer value="1">$4000</answer>
+                    <answer value="0">$6800</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Who will be used as a witness?</question>
+                <answers>
+                    <answer value="0">A stranger in the street</answer>
+                    <answer value="0">A friend who witnessed everything</answer>
+                    <answer value="1">A cop who was there</answer>
+                    <answer value="0">His companies lawyer</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>25</id>
+		<name>Lesson #25</name>
+		<sound>basic_lession25.mp3</sound>
+		<sentences_list>
+<sentence>A: "Jack, what's wrong?"</sentence>
+<sentence>B: "You!"</sentence>
+<sentence>A: "What are you talking about? What did I do?"</sentence>
+<sentence>B: "You told Martha that I was on a date? What was that all about?"</sentence>
+<sentence>A: "No... that's not what I meant. I didn't mean that. She asked me where you were and I jokingly said that you were on a date with Sara. I thought Martha knew that you and Sara were just friends."</sentence>
+<sentence>B: "She started feeling suspicious after you said that."</sentence>
+<sentence>A: "I'm sorry man. I didn't know. I didn't mean to screw anything up."</sentence>
+<sentence>B: "Martha gets jealous easily and it took a while to convince her that Sara was just a friend. Now, I have to explain to Sara that I can't hang around her because of you."</sentence>
+<sentence>A: "Look. I really didn't mean to, and next time I see Martha, I'll really tell her that you and Sara are really just friends."</sentence>
+<sentence>B: "Don't bother." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Who is Jack angry at?</question>
+                <answers>
+                    <answer value="0">His friend Sara</answer>
+                    <answer value="0">His girlfriend Martha</answer>
+                    <answer value="0">His brother</answer>
+                    <answer value="1">The friend he is talking to</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is Jack so angry?</question>
+                <answers>
+                    <answer value="1">His friend told Martha that Jack was dating Sara</answer>
+                    <answer value="0">His friend was angry he wasn't invited to a party</answer>
+                    <answer value="0">Because he didn't tell him about the surprise exam</answer>
+                    <answer value="0">His friend dated his girlfriend</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. Why did his friend cause this problem?</question>
+                <answers>
+                    <answer value="0">To get revenge because he was also angry with Jack</answer>
+                    <answer value="0">To make Jack and Martha break up</answer>
+                    <answer value="1">He was just joking and didn't mean to cause this problem</answer>
+                    <answer value="0">He knew it was a secret, but it just slipped out</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What is Jack asking his friend to do?</question>
+                <answers>
+                    <answer value="0">To talk to Martha about it</answer>
+                    <answer value="1">To not say anything to Martha anymore</answer>
+                    <answer value="0">To talk to Sara about it</answer>
+                    <answer value="0">To apologize to Martha</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>26</id>
+		<name>Lesson #26</name>
+		<sound>basic_lession26.mp3</sound>
+		<sentences_list>
+<sentence>A: "I can't wait to go skiing tomorrow."</sentence>
+<sentence>B: "I know. It's going to be so much fun."</sentence>
+<sentence>A: "I always get excited the day before."</sentence>
+<sentence>B: "I used to be like that. But I go skiing so often that I don't get excited anymore."</sentence>
+<sentence>A: "I only go skiing twice a year, so it's a real treat for me."</sentence>
+<sentence>B: "That makes sense."</sentence>
+<sentence>A: "What things make you excited?"</sentence>
+<sentence>B: "Whenever I go to Vegas, I get really excited."</sentence>
+<sentence>A: "Oh... that makes me excited too!"</sentence>
+<sentence>B: "Looks like anything fun makes you excited."</sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the exciting event that is causing this excitement?</question>
+                <answers>
+                    <answer value="1">They are going skiing tomorrow</answer>
+                    <answer value="0">They are going to Las Vegas tomorrow</answer>
+                    <answer value="0">They are going to have a big party over the weekend</answer>
+                    <answer value="0">They just graduated from college</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why does he get so excited?</question>
+                <answers>
+                    <answer value="0">This is his first time going to Las Vegas</answer>
+                    <answer value="0">The party over the weekend is a special event</answer>
+                    <answer value="1">He only gets to go skiing twice a year</answer>
+                    <answer value="0">He doesn't have to go to school anymore</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What event makes them both get excited?</question>
+                <answers>
+                    <answer value="0">A ski trip</answer>
+                    <answer value="1">Las Vegas vacation</answer>
+                    <answer value="0">Big parties</answer>
+                    <answer value="0">Any weekends</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Why does one person not get excited from skiing?</question>
+                <answers>
+                    <answer value="0">He doesn't enjoy skiing that much</answer>
+                    <answer value="0">He has never gone skiing so he doesn't know</answer>
+                    <answer value="0">He is too tired to be excited</answer>
+                    <answer value="1">He goes skiing often so he is used to it</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>27</id>
+		<name>Lesson #27</name>
+		<sound>basic_lession27.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Jack. Are you excited about starting work?"</sentence>
+<sentence>B: "Yeah. I'm really looking forward to it."</sentence>
+<sentence>A: "What was more exciting, starting college or starting work?"</sentence>
+<sentence>B: "They're pretty similar, but in different ways. I really can't decide. How about you?"</sentence>
+<sentence>A: "For me, I think starting school was more exciting."</sentence>
+<sentence>B: "Does that mean work isn't that great?"</sentence>
+<sentence>A: "It's different for everyone, but because I knew school was going to be so much fun, I really got excited about it."</sentence>
+<sentence>B: "But work is a huge portion of our lives. I'm looking forward to making it fun."</sentence>
+<sentence>A: "That's a great attitude to have. I don't think you'll have any problems in the workforce."</sentence>
+<sentence>B: "I hope you're right." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is Jack excited about?</question>
+                <answers>
+                    <answer value="0">Going on a vacation</answer>
+                    <answer value="0">Starting school</answer>
+                    <answer value="0">Finishing school</answer>
+                    <answer value="1">Starting work</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What does Jack think is more exciting between starting school or work?</question>
+                <answers>
+                    <answer value="0">Neither is exciting</answer>
+                    <answer value="1">Both are similar</answer>
+                    <answer value="0">Work is more exciting</answer>
+                    <answer value="0">School is more exciting</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is the best description about Jack's attitude toward work?</question>
+                <answers>
+                    <answer value="0">He is depressed because he will have to work for 30 years</answer>
+                    <answer value="0">He is sad that he can't have fun at school anymore</answer>
+                    <answer value="1">He is looking forward to making work fun</answer>
+                    <answer value="0">He doesn't care one way or another</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Who started work first between Jack and his friend?</question>
+                <answers>
+                    <answer value="0">Jack</answer>
+                    <answer value="1">His friend</answer>
+                    <answer value="0">Neither of them are working yet</answer>
+                    <answer value="0">Both started at the same time</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>28</id>
+		<name>Lesson #28</name>
+		<sound>basic_lession28.mp3</sound>
+		<sentences_list>
+<sentence>A: "You don't look too well. What's going on?"</sentence>
+<sentence>B: "I just lost my job. I'm just worried about how I'm going to pay the bills."</sentence>
+<sentence>A: "I'm sorry to hear that. Have you been looking for another job?"</sentence>
+<sentence>B: "I just started, but the job market is very bad right now. I'm not optimistic about it."</sentence>
+<sentence>A: "That's tough. What does your wife think about this?"</sentence>
+<sentence>B: "She's trying to be supportive, but I can tell she is very worried about our financial situation as well."</sentence>
+<sentence>A: "I have some friends who might be able to help you find a job. I'll see what they can do."</sentence>
+<sentence>B: "I really appreciate your help."</sentence>
+<sentence>A: "No problem. In the meantime, don't try to worry so much. You'll get through this." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the good news in this dialog?</question>
+                <answers>
+                    <answer value="0">He just got a job</answer>
+                    <answer value="0">He is going on a vacation</answer>
+                    <answer value="0">He found a pretty girlfriend</answer>
+                    <answer value="1">None of the above</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What is the bad news in this dialog?</question>
+                <answers>
+                    <answer value="0">His wife is worried about their finances</answer>
+                    <answer value="0">The job market is bad right now</answer>
+                    <answer value="0">He lost his job</answer>
+                    <answer value="1">All of the above</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is the friend doing about the situation?</question>
+                <answers>
+                    <answer value="0">Nothing he can do about it</answer>
+                    <answer value="1">Contact other friends who might be able to help find a job</answer>
+                    <answer value="0">Talk to his manager about openings in their company</answer>
+                    <answer value="0">None of the above</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What advice is the friend giving?</question>
+                <answers>
+                    <answer value="1">To not worry as he will get through this</answer>
+                    <answer value="0">To start saving money for the hard times</answer>
+                    <answer value="0">To start working at a gas station temporarily</answer>
+                    <answer value="0">All of the above</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>29</id>
+		<name>Lesson #29</name>
+		<sound>basic_lession29.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hi Jackie. You don't look too well. What's going on?"</sentence>
+<sentence>B: "It's nothing. I'm just a little stressed out."</sentence>
+<sentence>A: "Why? What's stressing you out?"</sentence>
+<sentence>B: "School. Since I was working part time, I had a difficult time keeping up with class. Now that we have exams coming up, I'm totally freaking out."</sentence>
+<sentence>A: "The best thing to do is study as much as you can. I'm sure you'll do alright."</sentence>
+<sentence>B: "I hope so. I guess I won't be sleeping for the next 3 days. That's what it'll take."</sentence>
+<sentence>A: "I have to study for an exam too. Why don't we study together. We can encourage each other."</sentence>
+<sentence>B: "That will be great." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Why doesn't Jackie look so well?</question>
+                <answers>
+                    <answer value="0">She is sick</answer>
+                    <answer value="1">She is stressed out</answer>
+                    <answer value="0">She just had a fight with her boyfriend</answer>
+                    <answer value="0">She just failed an exam</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is Jackie having a hard time keeping up with class?</question>
+                <answers>
+                    <answer value="1">She was working part time</answer>
+                    <answer value="0">She had to take care of her mother who was sick</answer>
+                    <answer value="0">She couldn't understand the material and didn't look for help early enough</answer>
+                    <answer value="0">She had too many classes to take and got behind</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is the solution to get through this problem?</question>
+                <answers>
+                    <answer value="0">Take her mother to the hospital</answer>
+                    <answer value="0">Drop out of one class</answer>
+                    <answer value="0">Find a tutor to help with this subject</answer>
+                    <answer value="1">Study with a friend with encouragement</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What statement is true from this dialog?</question>
+                <answers>
+                    <answer value="0">A new semester is about to start for school</answer>
+                    <answer value="0">The mother is sick but is getting better</answer>
+                    <answer value="0">They are both working to pay for school</answer>
+                    <answer value="1">They both have exams coming up</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>30</id>
+		<name>Lesson #30</name>
+		<sound>basic_lession30.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Mike. What are you doing tonight?"</sentence>
+<sentence>B: "Nothing planned. How about you?"</sentence>
+<sentence>A: "Work is kicking my ass. I'm so stressed. Let's go grab a drink."</sentence>
+<sentence>B: "I'm always up for a drink. To tell you the truth, it's been quite stressful here too."</sentence>
+<sentence>A: "I say we get drunk tonight. I don't want to think about all this stuff."</sentence>
+<sentence>B: "But we have to work tomorrow."</sentence>
+<sentence>A: "We won't stay out too late. I just need to forget about work."</sentence>
+<sentence>B: "I hear ya. Let's do it." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What do they plan on doing tonight?</question>
+                <answers>
+                    <answer value="0">Go play basketball with friends</answer>
+                    <answer value="0">Work all night long for tomorrow's presentation</answer>
+                    <answer value="1">Drink and get drunk</answer>
+                    <answer value="0">Stay home and rest</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why do they plan on going out tonight?</question>
+                <answers>
+                    <answer value="0">To forget about work</answer>
+                    <answer value="0">Because work is stressful</answer>
+                    <answer value="0">To get drunk</answer>
+                    <answer value="1">All of the above</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. How late do they plan on staying out tonight?</question>
+                <answers>
+                    <answer value="0">Until the next morning</answer>
+                    <answer value="1">Not too late</answer>
+                    <answer value="0">After they are both drunk</answer>
+                    <answer value="0">Until 3 in the morning</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. Where do they plan on going?</question>
+                <answers>
+                    <answer value="0">To the local bar</answer>
+                    <answer value="0">To a restaurant</answer>
+                    <answer value="0">To a club in downtown</answer>
+                    <answer value="1">None of the above</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>31</id>
+		<name>Lesson #31</name>
+		<sound>basic_lession31.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Mike. What are you doing?"</sentence>
+<sentence>B: "Nothing much. What are you up to?"</sentence>
+<sentence>A: "I was just concerned about Sam. He hasn't been himself lately."</sentence>
+<sentence>B: "He took the civil service exam and failed."</sentence>
+<sentence>A: "That sucks. He must feel depressed."</sentence>
+<sentence>B: "Yeah. He's been sitting in his room everyday for the last 4 days."</sentence>
+<sentence>A: "Why don't we take him out? We can try to take his mind off of it. In the least show him that we're there for him."</sentence>
+<sentence>B: "That's a great idea. Why don't you call him. I already talked to him a couple of times and it might be good for him to hear from somebody else."</sentence>
+<sentence>A: "Ok. I'll call you back after I'm done."</sentence>
+<sentence>B: "Sounds good." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is the topic of this dialog?</question>
+                <answers>
+                    <answer value="0">University classes</answer>
+                    <answer value="1">A friend who is not himself lately</answer>
+                    <answer value="0">Partying and drinking</answer>
+                    <answer value="0">A friend with a pretty girlfriend</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is Sam depressed?</question>
+                <answers>
+                    <answer value="1">He failed an important exam</answer>
+                    <answer value="0">His girlfriend broke up with him</answer>
+                    <answer value="0">He wasn't invited to a big party</answer>
+                    <answer value="0">He failed one of his university classes</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What has Sam been doing for the last several days?</question>
+                <answers>
+                    <answer value="1">Sitting in his room</answer>
+                    <answer value="0">Exercising all day long</answer>
+                    <answer value="0">Thinking about his girlfriend</answer>
+                    <answer value="0">None of the above</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What are they going to do about Sam?</question>
+                <answers>
+                    <answer value="1">Try to take him out</answer>
+                    <answer value="0">Talk to his girlfriend</answer>
+                    <answer value="0">Help him study</answer>
+                    <answer value="0">None of the above</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>32</id>
+		<name>Lesson #32</name>
+		<sound>basic_lession32.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hello?"</sentence>
+<sentence>B: "Hey Tina. What are you doing?"</sentence>
+<sentence>A: "I was just watching TV. What's going on with you?"</sentence>
+<sentence>B: "I just watched a movie and I'm scared."</sentence>
+<sentence>A: "What did you watch?"</sentence>
+<sentence>B: "I saw the Sixth Sense. I didn't know it was going to be so scary."</sentence>
+<sentence>A: "I remember that. It was a great movie. But it was definitely scary."</sentence>
+<sentence>B: "If you're not busy, do you want to come over? I'm afraid to be alone."</sentence>
+<sentence>A: "Sure. I can come over. What should we do?"</sentence>
+<sentence>B: "How about if we watch a comedy. I need something to get my mind off the frightening images I have from the Sixth Sense."</sentence>
+<sentence>A: "Ok. I'll get ready and leave. I'll see you in about 20 minutes."</sentence>
+<sentence>B: "Hurry, ok. It's dark out."</sentence>
+<sentence>A: "Don't worry, nothings going to happen. I'll be there real soon."</sentence>
+<sentence>B: "Ok. See you soon." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. Where is this dialog occurring?</question>
+                <answers>
+                    <answer value="0">At a restaurant</answer>
+                    <answer value="1">Over the phone</answer>
+                    <answer value="0">At the park</answer>
+                    <answer value="0">At a movie theater</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. Why is one of the person scared?</question>
+                <answers>
+                    <answer value="0">Boyfriend is bothering her</answer>
+                    <answer value="0">A stranger followed her into the store</answer>
+                    <answer value="1">A movie she just watched was scary</answer>
+                    <answer value="0">She had a nightmare</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What is Tina going to do for her scared friend?</question>
+                <answers>
+                    <answer value="1">Go over to her house and watch a comedy together</answer>
+                    <answer value="0">Rent a DVD that is funny for Tina</answer>
+                    <answer value="0">Keep talking to her until she is not scared anymore</answer>
+                    <answer value="0">Have a party for her</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What time of day is this dialog taking place?</question>
+                <answers>
+                    <answer value="0">In the morning</answer>
+                    <answer value="0">At lunch time</answer>
+                    <answer value="0">In the afternoon</answer>
+                    <answer value="1">In the evening</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>33</id>
+		<name>Lesson #33</name>
+		<sound>basic_lession33.mp3</sound>
+		<sentences_list>
+<sentence>A: "Hey Mark. What are you doing?"</sentence>
+<sentence>B: "Just watching some TV."</sentence>
+<sentence>A: "Anything interesting on?"</sentence>
+<sentence>B: "Not really. Just watching the sports highlight on ESPN."</sentence>
+<sentence>A: "So I take it you're pretty bored too."</sentence>
+<sentence>B: "Just killing time until I find something to do. What are you up to?"</sentence>
+<sentence>A: "It's Saturday and we are sitting at home doing nothing. What's wrong with us?"</sentence>
+<sentence>B: "You wanna shoot some hoops?"</sentence>
+<sentence>A: "I already tried to call up some of the guys, but they are all busy."</sentence>
+<sentence>B: "Where's your girlfriend? I thought you were going out with her today."</sentence>
+<sentence>A: "She's out shopping with her friends."</sentence>
+<sentence>B: "Let's go to Starbucks and think of something to do then."</sentence>
+<sentence>A: "Aright. Do you have any cigarettes?"</sentence>
+<sentence>B: "I only have a couple left. Why don't you pick some up on the way."</sentence>
+<sentence>A: "Ok. See you there in about 30 minutes."</sentence>
+<sentence>B: "Aright. See you there." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What is Mark doing right now?</question>
+                <answers>
+                    <answer value="0">Playing basketball</answer>
+                    <answer value="1">Watching TV</answer>
+                    <answer value="0">Studying for an exam</answer>
+                    <answer value="0">Eating lunch</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What day of the week is it?</question>
+                <answers>
+                    <answer value="0">Wednesday</answer>
+                    <answer value="0">Friday</answer>
+                    <answer value="1">Saturday</answer>
+                    <answer value="0">Sunday</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What are they planning on doing?</question>
+                <answers>
+                    <answer value="0">Planning to watch TV</answer>
+                    <answer value="0">Planning to play basketball</answer>
+                    <answer value="1">Planning on going to Starbucks</answer>
+                    <answer value="0">Planning on shopping with their girlfriend</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. When are they going to meet?</question>
+                <answers>
+                    <answer value="0">Tomorrow after lunch</answer>
+                    <answer value="1">In 30 minutes</answer>
+                    <answer value="0">In 1 hour</answer>
+                    <answer value="0">On Sunday</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+	<lession>
+		<id>34</id>
+		<name>Lesson #34</name>
+		<sound>basic_lession34.mp3</sound>
+		<sentences_list>
+<sentence>A: "Why the long face?"</sentence>
+<sentence>B: "I'm getting sick of work man. I can't take the political bull in the company any more."</sentence>
+<sentence>A: "Did you just get your review or something?"</sentence>
+<sentence>B: "Yeah, but that's not why I am upset. I just found out another guy got a promotion. He doesn't know how to do anything. He sits there and kisses the managers butt all day long."</sentence>
+<sentence>A: "That sucks."</sentence>
+<sentence>B: "I'm just pissed that management can't see behind his smooth talking lies."</sentence>
+<sentence>A: "Look on the bright side. At least you have a job."</sentence>
+<sentence>B: "Yeah. I shouldn't stress about this anymore. It's not like I can do anything about it."</sentence>
+<sentence>A: "Exactly. Instead, we should have some drinks tonight."</sentence>
+<sentence>B: "How about a cold bottle of beer."</sentence>
+<sentence>A: "Now you're talking." </sentence>
+		</sentences_list>
+        <questionaire>
+            <questions>
+                <question>1. What does having a long face represent?</question>
+                <answers>
+                    <answer value="0">The face is not short</answer>
+                    <answer value="0">The face is narrow but long</answer>
+                    <answer value="0">Represents happiness</answer>
+                    <answer value="1">Represents unhappiness</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>2. What happened at work that caused the long face?</question>
+                <answers>
+                    <answer value="0">He got a promotion</answer>
+                    <answer value="1">A different person got a promotion</answer>
+                    <answer value="0">He got a raise</answer>
+                    <answer value="0">He lost his job</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>3. What topic are they talking about?</question>
+                <answers>
+                    <answer value="0">Fun classes at school</answer>
+                    <answer value="0">Being busy at work</answer>
+                    <answer value="1">Stress from work</answer>
+                    <answer value="0">Drinking and partying</answer>
+                </answers>
+            </questions>
+            <questions>
+                <question>4. What do they plan on drinking?</question>
+                <answers>
+                    <answer value="0">Coke</answer>
+                    <answer value="0">Whiskey</answer>
+                    <answer value="1">Beer</answer>
+                    <answer value="0">Water</answer>
+                </answers>
+            </questions>
+        </questionaire>
+	</lession>
+</lessions>

@@ -14,6 +14,7 @@
 		84658F091D6A96E600BAA472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84658F071D6A96E600BAA472 /* LaunchScreen.storyboard */; };
 		84658F141D6A96E600BAA472 /* EnglishHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84658F131D6A96E600BAA472 /* EnglishHubTests.swift */; };
 		84658F1F1D6A96E600BAA472 /* EnglishHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84658F1E1D6A96E600BAA472 /* EnglishHubUITests.swift */; };
+		84779F911D6AA70A00A96A77 /* XMLResources in Resources */ = {isa = PBXBuildFile; fileRef = 84779F901D6AA70A00A96A77 /* XMLResources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84658F1A1D6A96E600BAA472 /* EnglishHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84658F1E1D6A96E600BAA472 /* EnglishHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishHubUITests.swift; sourceTree = "<group>"; };
 		84658F201D6A96E600BAA472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84779F901D6AA70A00A96A77 /* XMLResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = XMLResources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				84658F051D6A96E600BAA472 /* Assets.xcassets */,
 				84658F071D6A96E600BAA472 /* LaunchScreen.storyboard */,
 				84658F0A1D6A96E600BAA472 /* Info.plist */,
+				84779F901D6AA70A00A96A77 /* XMLResources */,
 			);
 			path = EnglishHub;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84779F911D6AA70A00A96A77 /* XMLResources in Resources */,
 				84658F091D6A96E600BAA472 /* LaunchScreen.storyboard in Resources */,
 				84658F061D6A96E600BAA472 /* Assets.xcassets in Resources */,
 				84658F041D6A96E600BAA472 /* Main.storyboard in Resources */,
@@ -484,6 +488,7 @@
 				84658F251D6A96E600BAA472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84658F261D6A96E600BAA472 /* Build configuration list for PBXNativeTarget "EnglishHubTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				84658F281D6A96E600BAA472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84658F291D6A96E600BAA472 /* Build configuration list for PBXNativeTarget "EnglishHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				84658F2B1D6A96E600BAA472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
