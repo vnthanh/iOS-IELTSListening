@@ -8,20 +8,23 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "cell"
 
 class LessionCollectionViewController: UICollectionViewController {
 
+    let levelId: String = "3"
+    let levelParser: LevelParser = LevelParser()
+    var dataArray: NSMutableArray = NSMutableArray()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Register cell classes
-        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
+        
         // Do any additional setup after loading the view.
+        dataArray = levelParser.getLessonList(levelId)
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,23 +46,33 @@ class LessionCollectionViewController: UICollectionViewController {
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return dataArray.count
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath)
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CustomCollectionViewCell
     
         // Configure the cell
+        cell.lessonImageView.image = UIImage(named: "lesson_\(indexPath.row+1)")
     
+        
         return cell
     }
-
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        
+        let screenWidth = UIScreen.mainScreen().bounds.width
+        let size = CGSize(width: (screenWidth / 3 - 10), height: screenWidth / 10)
+        
+        return size
+    }
+    
     // MARK: UICollectionViewDelegate
 
     /*
