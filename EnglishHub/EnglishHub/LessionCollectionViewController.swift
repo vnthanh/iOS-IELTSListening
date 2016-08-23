@@ -16,13 +16,15 @@ class LessionCollectionViewController: UICollectionViewController {
     let levelParser: LevelParser = LevelParser()
     var dataArray: NSMutableArray = NSMutableArray()
     
+    // to mark which lesson is selected -> push segue
+    var lesson: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         print(levelId)
         dataArray = levelParser.getLessonList(levelId)
-    
-        //
+        
         let flow: UICollectionViewFlowLayout = self.collectionViewLayout as! UICollectionViewFlowLayout
         flow.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15)
     }
@@ -75,8 +77,17 @@ class LessionCollectionViewController: UICollectionViewController {
     }
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        lesson = indexPath.row
         performSegueWithIdentifier("pushLessonDetail", sender: self)
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "pushLessonDetail" {
+            let vc = segue.destinationViewController as! LessonDetailViewController
+            
+            vc.lesson = self.dataArray[lesson] as! LessonObject
+         
+        }
+    }
 
 }

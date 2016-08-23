@@ -156,10 +156,10 @@
             </objects>
             <point key="canvasLocation" x="978" y="418"/>
         </scene>
-        <!--View Controller-->
+        <!--Lesson Detail View Controller-->
         <scene sceneID="LPb-Zc-Myb">
             <objects>
-                <viewController id="fOc-0O-TYA" sceneMemberID="viewController">
+                <viewController id="fOc-0O-TYA" customClass="LessonDetailViewController" customModule="EnglishHub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jAl-Sg-Q5f"/>
                         <viewControllerLayoutGuide type="bottom" id="TRu-cU-rlr"/>
@@ -182,7 +182,7 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="fOc-0O-TYA" id="6p4-al-qed"/>
+                                    <outlet property="dataSource" destination="fOc-0O-TYA" id="mCn-WE-4Ut"/>
                                     <outlet property="delegate" destination="fOc-0O-TYA" id="KaP-1Y-KY1"/>
                                 </connections>
                             </tableView>
@@ -197,6 +197,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="060-V2-i6o"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="tuZ-sg-YDk" id="3UA-1V-IVg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5c-dL-9xT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
