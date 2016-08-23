@@ -21,6 +21,9 @@ class LessonDetailViewController: UIViewController, UITableViewDelegate, UITable
 
         // Do any additional setup after loading the view.
         lessonConversationArray = lesson.conversationArray
+        
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 140
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,9 +37,9 @@ class LessonDetailViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell")!
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell")! as! CustomTableViewCell
         
-        cell.textLabel?.text = lessonConversationArray[indexPath.row] as? String
+        cell.conversationLabel.text = lessonConversationArray[indexPath.row] as? String
         
         return cell
     }
