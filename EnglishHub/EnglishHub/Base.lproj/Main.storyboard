@@ -49,7 +49,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="advancedLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxK-FB-788"/>
+                                            <action selector="advancedLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MUW-JA-Gna"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVn-eL-zbc">
@@ -65,7 +65,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="intermediateLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fvQ-Ai-u7r"/>
+                                            <action selector="intermediateLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sHm-MH-C4H"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -148,10 +148,13 @@
                     </collectionView>
                     <navigationItem key="navigationItem" id="tyE-cJ-tfl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="fOc-0O-TYA" kind="push" identifier="pushLessonDetail" id="uYx-ql-bLE"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3f-rE-1qz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1011" y="418"/>
+            <point key="canvasLocation" x="978" y="418"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LPb-Zc-Myb">
@@ -165,12 +168,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tuZ-sg-YDk">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tuZ-sg-YDk">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="M8j-vK-2x3">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M8j-vK-2x3" id="W8X-I9-yJG">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -192,6 +195,7 @@
                             <constraint firstItem="TRu-cU-rlr" firstAttribute="top" secondItem="tuZ-sg-YDk" secondAttribute="bottom" id="t3d-6X-eE5"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="060-V2-i6o"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5c-dL-9xT" userLabel="First Responder" sceneMemberID="firstResponder"/>

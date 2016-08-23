@@ -19,12 +19,12 @@ class LessionCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        
-        // Do any additional setup after loading the view.
+        print(levelId)
         dataArray = levelParser.getLessonList(levelId)
+    
+        //
+        let flow: UICollectionViewFlowLayout = self.collectionViewLayout as! UICollectionViewFlowLayout
+        flow.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15)
     }
 
     override func didReceiveMemoryWarning() {
@@ -65,43 +65,18 @@ class LessionCollectionViewController: UICollectionViewController {
         return cell
     }
     
+    
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         
         let screenWidth = UIScreen.mainScreen().bounds.width
-        let size = CGSize(width: (screenWidth / 3 - 10), height: screenWidth / 10)
+        let size = CGSize(width: (screenWidth / 3 - 20), height: screenWidth / 10)
         
         return size
     }
     
-    // MARK: UICollectionViewDelegate
-
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("pushLessonDetail", sender: self)
     }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, performAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
     
-    }
-    */
 
 }
