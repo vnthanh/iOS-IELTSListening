@@ -12,7 +12,7 @@ private let reuseIdentifier = "cell"
 
 class LessionCollectionViewController: UICollectionViewController {
 
-    let levelId: String = "3"
+    var levelId: String = ""
     let levelParser: LevelParser = LevelParser()
     var dataArray: NSMutableArray = NSMutableArray()
     

@@ -33,7 +33,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="T6i-TJ-fNI" kind="show" id="3Ll-00-2RA"/>
+                                            <action selector="basicLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xxl-2Y-51d"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fG-0x-YhS">
@@ -48,6 +48,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="advancedLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxK-FB-788"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVn-eL-zbc">
                                         <rect key="frame" x="0.0" y="70" width="240" height="30"/>
@@ -61,6 +64,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="intermediateLevelButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fvQ-Ai-u7r"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -88,6 +94,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="W27-Bx-igB"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="T6i-TJ-fNI" kind="push" identifier="pushLessonList" id="cSN-cg-SoI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,6 +146,7 @@
                             <outlet property="delegate" destination="T6i-TJ-fNI" id="wXL-m9-xBR"/>
                         </connections>
                     </collectionView>
+                    <navigationItem key="navigationItem" id="tyE-cJ-tfl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3f-rE-1qz" userLabel="First Responder" sceneMemberID="firstResponder"/>
