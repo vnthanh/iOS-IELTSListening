@@ -115,8 +115,11 @@ class LessionCollectionViewController: UIViewController, UICollectionViewDelegat
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         
-        let screenWidth = UIScreen.mainScreen().bounds.width
-        let size = CGSize(width: (screenWidth / 3 - 20), height: screenWidth / 10)
+        let screenWidth = self.view.frame.width //UIScreen.mainScreen().bounds.width
+        let screenHeight = self.view.frame.height
+        
+        let chooseSize = screenWidth < screenHeight ? screenWidth : screenHeight
+        let size = CGSize(width: (chooseSize / 3 - 20), height: chooseSize / 10)
         
         return size
     }
