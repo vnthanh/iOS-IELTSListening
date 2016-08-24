@@ -56,7 +56,7 @@
 		6C3FF0F41D6B08BA00EE4220 /* basic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = basic.xml; sourceTree = "<group>"; };
 		6C3FF0F61D6B09EF00EE4220 /* intermediate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intermediate.xml; sourceTree = "<group>"; };
 		6C3FF0F81D6B09F300EE4220 /* advance.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = advance.xml; sourceTree = "<group>"; };
-		6C5E88DD1D6C3F7E00C0413E /* LessonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonDetailViewController.swift; sourceTree = "<group>"; };
+		6C5E88DD1D6C3F7E00C0413E /* LessonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LessonDetailViewController.swift; path = ../LessonDetailViewController.swift; sourceTree = "<group>"; };
 		6C5E88DF1D6C527D00C0413E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
 		84658EFB1D6A96E500BAA472 /* EnglishHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84658EFE1D6A96E500BAA472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +115,6 @@
 		84658EF21D6A96E500BAA472 = {
 			isa = PBXGroup;
 			children = (
-				6C5E88DD1D6C3F7E00C0413E /* LessonDetailViewController.swift */,
 				84658EFD1D6A96E500BAA472 /* EnglishHub */,
 				84658F121D6A96E600BAA472 /* EnglishHubTests */,
 				84658F1D1D6A96E600BAA472 /* EnglishHubUITests */,
@@ -140,6 +139,7 @@
 				84658EFE1D6A96E500BAA472 /* AppDelegate.swift */,
 				84658F001D6A96E600BAA472 /* ViewController.swift */,
 				6C3FF0F01D6AFF4B00EE4220 /* LessionCollectionViewController.swift */,
+				6C5E88DD1D6C3F7E00C0413E /* LessonDetailViewController.swift */,
 				84658F021D6A96E600BAA472 /* Main.storyboard */,
 				84658F051D6A96E600BAA472 /* Assets.xcassets */,
 				84658F071D6A96E600BAA472 /* LaunchScreen.storyboard */,
