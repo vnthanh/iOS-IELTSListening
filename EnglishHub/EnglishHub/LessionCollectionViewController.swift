@@ -27,6 +27,8 @@ class LessionCollectionViewController: UICollectionViewController {
         
         let flow: UICollectionViewFlowLayout = self.collectionViewLayout as! UICollectionViewFlowLayout
         flow.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15)
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "download.png")!)
     }
 
     override func didReceiveMemoryWarning() {
