@@ -24,6 +24,15 @@ class LessonDetailViewController: UIViewController, UITableViewDelegate, UITable
         
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
+        
+        
+        // Set view controller background image, proceed image to fit
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "main_bg_image")?.drawInRect(self.view.bounds)
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.view.backgroundColor = UIColor(patternImage: image)
+        
     }
 
     override func didReceiveMemoryWarning() {
