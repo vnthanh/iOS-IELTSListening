@@ -18,6 +18,11 @@ class LessonDetailViewController: UIViewController, UITableViewDelegate, UITable
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // transparent navigationbar
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.translucent = true
 
         // Do any additional setup after loading the view.
         lessonConversationArray = lesson.conversationArray
