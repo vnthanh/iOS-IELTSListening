@@ -24,6 +24,10 @@ class LessionCollectionViewController: UICollectionViewController {
         
         // show navigationbar
         self.navigationController?.setNavigationBarHidden(false, animated: true)
+        // transparent navigationbar
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.translucent = true
 
         print(levelId)
         dataArray = levelParser.getLessonList(levelId)
