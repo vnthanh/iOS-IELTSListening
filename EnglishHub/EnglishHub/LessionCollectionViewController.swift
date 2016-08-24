@@ -41,11 +41,11 @@ class LessionCollectionViewController: UIViewController, UICollectionViewDelegat
 //        flow.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15)
         
         // Set view controller background image, proceed image to fit
-        UIGraphicsBeginImageContext(self.collectionView.frame.size)
+        UIGraphicsBeginImageContext(self.view.frame.size)
         UIImage(named: "main_bg_image")?.drawInRect(self.view.bounds)
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        self.collectionView.backgroundColor = UIColor(patternImage: image)
+        self.view.backgroundColor = UIColor(patternImage: image)
         
         // set nav bar title for each level
         if levelId == "1" {

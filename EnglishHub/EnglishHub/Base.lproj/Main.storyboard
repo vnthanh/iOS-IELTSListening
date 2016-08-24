@@ -108,7 +108,7 @@
         <!--Lession Collection View Controller-->
         <scene sceneID="jB6-3A-jdU">
             <objects>
-                <viewController id="YYd-zF-SDY" customClass="LessionCollectionViewController" customModule="EnglishHub" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="YYd-zF-SDY" customClass="LessionCollectionViewController" customModule="EnglishHub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gT5-m7-M8V"/>
                         <viewControllerLayoutGuide type="bottom" id="E12-Pf-V6P"/>
@@ -119,6 +119,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jIN-Yb-Vy8">
                                 <rect key="frame" x="16" y="64" width="288" height="504"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xQz-Es-ng6">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -127,23 +128,23 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="pfk-Hy-zMa" customClass="CustomCollectionViewCell" customModule="EnglishHub" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wCu-Fj-F7E">
-                                                    <rect key="frame" x="8" y="8" width="34" height="34"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="wCu-Fj-F7E" secondAttribute="trailing" id="1g9-wv-IWl"/>
-                                            <constraint firstItem="wCu-Fj-F7E" firstAttribute="top" secondItem="pfk-Hy-zMa" secondAttribute="topMargin" id="ADI-lt-cJo"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="wCu-Fj-F7E" secondAttribute="bottom" id="DZJ-bG-2cR"/>
-                                            <constraint firstItem="wCu-Fj-F7E" firstAttribute="leading" secondItem="pfk-Hy-zMa" secondAttribute="leadingMargin" id="f7d-BC-xFj"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="wCu-Fj-F7E" secondAttribute="trailing" constant="-8" id="1g9-wv-IWl"/>
+                                            <constraint firstItem="wCu-Fj-F7E" firstAttribute="top" secondItem="pfk-Hy-zMa" secondAttribute="topMargin" constant="-8" id="ADI-lt-cJo"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="wCu-Fj-F7E" secondAttribute="bottom" constant="-8" id="DZJ-bG-2cR"/>
+                                            <constraint firstItem="wCu-Fj-F7E" firstAttribute="leading" secondItem="pfk-Hy-zMa" secondAttribute="leadingMargin" constant="-8" id="f7d-BC-xFj"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="lessonImageView" destination="wCu-Fj-F7E" id="8Mv-PS-mYc"/>
