@@ -19,6 +19,9 @@ class LessionCollectionViewController: UICollectionViewController {
     // to mark which lesson is selected -> push segue
     var lesson: Int = 0
     
+    // handle NSUserDefault
+    var seenLessonArray: NSMutableArray? // array of seen lesson (index)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,6 +52,19 @@ class LessionCollectionViewController: UICollectionViewController {
             self.navigationItem.title = "INTERMEDIATE LEVEL"
         } else {
             self.navigationItem.title = "ADVANCED LEVEL"
+        }
+        
+        // load seen lesson array (nsuserdefaults)
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        // check each level
+        if levelId == "1" {
+            seenLessonArray = defaults.objectForKey("seenLessonArrayLevel1")?.mutableCopy() as? NSMutableArray
+        } else if levelId == "2" {
+            seenLessonArray = defaults.objectForKey("seenLessonArrayLevel2")?.mutableCopy() as? NSMutableArray
+        }
+        else {
+            seenLessonArray = defaults.objectForKey("seenLessonArrayLevel3")?.mutableCopy() as? NSMutableArray
         }
     }
 
@@ -83,9 +99,13 @@ class LessionCollectionViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CustomCollectionViewCell
     
-        // Configure the cell
-        cell.lessonImageView.image = UIImage(named: "lesson_\(indexPath.row+1)")
-    
+        // Check from NSUserDefault to display different image for each lesson user has seen
+        if seenLessonArray != nil && seenLessonArray!.containsObject(indexPath.row) {
+            cell.lessonImageView.image = UIImage(named: "lesson_\(indexPath.row+1)_tap")
+        } else {
+            // Configure the cell
+            cell.lessonImageView.image = UIImage(named: "lesson_\(indexPath.row+1)")
+        }
         
         return cell
     }
@@ -102,6 +122,32 @@ class LessionCollectionViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         lesson = indexPath.row
         performSegueWithIdentifier("pushLessonDetail", sender: self)
+        
+        // Save, add to nsuserdefault (array)
+        if seenLessonArray != nil {
+            if seenLessonArray!.containsObject(indexPath.row) {
+                return
+            }
+            self.seenLessonArray!.addObject(indexPath.row)
+        } else {
+            self.seenLessonArray = NSMutableArray()
+            self.seenLessonArray!.addObject(indexPath.row)
+        }
+        
+        // call nsuserdefault ref
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        // check each level
+        if levelId == "1" {
+            defaults.setObject(self.seenLessonArray, forKey: "seenLessonArrayLevel1")
+        } else if levelId == "2" {
+            defaults.setObject(self.seenLessonArray, forKey: "seenLessonArrayLevel2")
+        }
+        else {
+            defaults.setObject(self.seenLessonArray, forKey: "seenLessonArrayLevel3")
+        }
+
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -109,8 +155,10 @@ class LessionCollectionViewController: UICollectionViewController {
             let vc = segue.destinationViewController as! LessonDetailViewController
             
             vc.lesson = self.dataArray[lesson] as! LessonObject
-         
         }
     }
 
+    override func viewWillAppear(animated: Bool) {
+        self.collectionView?.reloadData()
+    }
 }
