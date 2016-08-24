@@ -10,8 +10,10 @@ import UIKit
 
 private let reuseIdentifier = "cell"
 
-class LessionCollectionViewController: UICollectionViewController {
+class LessionCollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     var levelId: String = ""
     let levelParser: LevelParser = LevelParser()
     var dataArray: NSMutableArray = NSMutableArray()
@@ -35,15 +37,15 @@ class LessionCollectionViewController: UICollectionViewController {
         print(levelId)
         dataArray = levelParser.getLessonList(levelId)
         
-        let flow: UICollectionViewFlowLayout = self.collectionViewLayout as! UICollectionViewFlowLayout
-        flow.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15)
+//        let flow: UICollectionViewFlowLayout = self.collectionView as! UICollectionViewFlowLayout
+//        flow.sectionInset = UIEdgeInsetsMake(0, 15, 0, 15)
         
         // Set view controller background image, proceed image to fit
-        UIGraphicsBeginImageContext(self.collectionView!.frame.size)
+        UIGraphicsBeginImageContext(self.collectionView.frame.size)
         UIImage(named: "main_bg_image")?.drawInRect(self.view.bounds)
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        self.collectionView!.backgroundColor = UIColor(patternImage: image)
+        self.collectionView.backgroundColor = UIColor(patternImage: image)
         
         // set nav bar title for each level
         if levelId == "1" {
@@ -85,18 +87,18 @@ class LessionCollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         return dataArray.count
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CustomCollectionViewCell
     
         // Check from NSUserDefault to display different image for each lesson user has seen
@@ -119,7 +121,7 @@ class LessionCollectionViewController: UICollectionViewController {
         return size
     }
     
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         lesson = indexPath.row
         performSegueWithIdentifier("pushLessonDetail", sender: self)
         
@@ -159,6 +161,6 @@ class LessionCollectionViewController: UICollectionViewController {
     }
 
     override func viewWillAppear(animated: Bool) {
-        self.collectionView?.reloadData()
+        self.collectionView.reloadData()
     }
 }
