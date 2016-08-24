@@ -96,7 +96,7 @@
                     <navigationItem key="navigationItem" id="W27-Bx-igB"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="T6i-TJ-fNI" kind="push" identifier="pushLessonList" id="cSN-cg-SoI"/>
+                        <segue destination="T6i-TJ-fNI" kind="show" identifier="pushLessonList" id="cSN-cg-SoI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -150,7 +150,7 @@
                     <navigationItem key="navigationItem" id="tyE-cJ-tfl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="fOc-0O-TYA" kind="push" identifier="pushLessonDetail" id="uYx-ql-bLE"/>
+                        <segue destination="fOc-0O-TYA" kind="show" identifier="pushLessonDetail" id="uYx-ql-bLE"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3f-rE-1qz" userLabel="First Responder" sceneMemberID="firstResponder"/>
