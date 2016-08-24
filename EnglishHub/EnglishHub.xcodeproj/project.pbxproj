@@ -141,6 +141,7 @@
 				6C3FF0F01D6AFF4B00EE4220 /* LessionCollectionViewController.swift */,
 				6C5E88DD1D6C3F7E00C0413E /* LessonDetailViewController.swift */,
 				84658F021D6A96E600BAA472 /* Main.storyboard */,
+				6C5E88DD1D6C3F7E00C0413E /* LessonDetailViewController.swift */,
 				84658F051D6A96E600BAA472 /* Assets.xcassets */,
 				84658F071D6A96E600BAA472 /* LaunchScreen.storyboard */,
 				84658F0A1D6A96E600BAA472 /* Info.plist */,

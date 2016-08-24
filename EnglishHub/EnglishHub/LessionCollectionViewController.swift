@@ -21,6 +21,9 @@ class LessionCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // show navigationbar
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
 
         print(levelId)
         dataArray = levelParser.getLessonList(levelId)
