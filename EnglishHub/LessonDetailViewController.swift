@@ -38,6 +38,9 @@ class LessonDetailViewController: UIViewController, UITableViewDelegate, UITable
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
         
+        // set nav bar title
+        self.navigationItem.title = lesson.lessonName
+        
     }
 
     override func didReceiveMemoryWarning() {

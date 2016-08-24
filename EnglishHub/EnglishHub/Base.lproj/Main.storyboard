@@ -93,7 +93,9 @@
                             <constraint firstItem="p99-W0-Pc8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rBG-hJ-1GG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="W27-Bx-igB"/>
+                    <navigationItem key="navigationItem" id="W27-Bx-igB">
+                        <barButtonItem key="backBarButtonItem" title=" " id="F9S-DA-AKX"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <segue destination="T6i-TJ-fNI" kind="show" identifier="pushLessonList" id="cSN-cg-SoI"/>
@@ -147,7 +149,9 @@
                             <outlet property="delegate" destination="T6i-TJ-fNI" id="wXL-m9-xBR"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="tyE-cJ-tfl"/>
+                    <navigationItem key="navigationItem" id="tyE-cJ-tfl">
+                        <barButtonItem key="backBarButtonItem" title=" " id="MR2-fc-L8s"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <segue destination="fOc-0O-TYA" kind="show" identifier="pushLessonDetail" id="uYx-ql-bLE"/>
@@ -214,7 +218,9 @@
                             <constraint firstItem="TRu-cU-rlr" firstAttribute="top" secondItem="tuZ-sg-YDk" secondAttribute="bottom" id="t3d-6X-eE5"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="060-V2-i6o"/>
+                    <navigationItem key="navigationItem" id="060-V2-i6o">
+                        <barButtonItem key="backBarButtonItem" title=" " id="hMt-Ta-72d"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="tableView" destination="tuZ-sg-YDk" id="3UA-1V-IVg"/>
@@ -233,6 +239,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="geb-ps-gHx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.29850653570000002" green="0.64291755520000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -241,7 +250,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eA0-l1-wr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="167" y="418"/>
+            <point key="canvasLocation" x="170" y="418"/>
         </scene>
     </scenes>
     <resources>

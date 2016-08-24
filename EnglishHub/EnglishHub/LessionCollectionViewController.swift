@@ -41,6 +41,15 @@ class LessionCollectionViewController: UICollectionViewController {
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.collectionView!.backgroundColor = UIColor(patternImage: image)
+        
+        // set nav bar title for each level
+        if levelId == "1" {
+            self.navigationItem.title = "BASIC LEVEL"
+        } else if levelId == "2" {
+            self.navigationItem.title = "INTERMEDIATE LEVEL"
+        } else {
+            self.navigationItem.title = "ADVANCED LEVEL"
+        }
     }
 
     override func didReceiveMemoryWarning() {
