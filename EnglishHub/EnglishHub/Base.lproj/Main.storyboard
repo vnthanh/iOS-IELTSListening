@@ -165,6 +165,9 @@
                             <constraint firstItem="E12-Pf-V6P" firstAttribute="top" secondItem="jIN-Yb-Vy8" secondAttribute="bottom" id="vaJ-XF-eTe"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="D9h-Kc-GGo">
+                        <barButtonItem key="backBarButtonItem" title=" " id="x93-Gl-vPn"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="collectionView" destination="jIN-Yb-Vy8" id="zq4-ow-Jkp"/>
