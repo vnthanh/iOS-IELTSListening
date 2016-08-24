@@ -160,7 +160,7 @@
         <!--Lesson Detail View Controller-->
         <scene sceneID="LPb-Zc-Myb">
             <objects>
-                <viewController id="fOc-0O-TYA" customClass="LessonDetailViewController" customModule="EnglishHub" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fOc-0O-TYA" customClass="LessonDetailViewController" customModule="EnglishHub" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jAl-Sg-Q5f"/>
                         <viewControllerLayoutGuide type="bottom" id="TRu-cU-rlr"/>
@@ -174,7 +174,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="M8j-vK-2x3" customClass="CustomTableViewCell" customModule="EnglishHub" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M8j-vK-2x3" id="W8X-I9-yJG">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
